@@ -3,6 +3,32 @@
 
 ## About the Project
  In this project, PySpark is utilized to preprocess the dataset and conduct sentiment analysis. Identifying the most praised and criticized aspects of various cuisine types is aimed by analyzin customer sentiments.
+
+
+ ## Table of Contents
+ 
+ - Importing Libraries
+ - Creating Spark Environment
+ - Data Preprocessing
+    - I.  Cleaning of Busines Dataset
+    - II. Cleaning of Review Dataset
+    - III. Joining Datasets
+    - IV. Feature Extraction
+    - V. Text Processing
+        - a. Text Cleaning
+        - b. Stopword Removal
+        - c. Tokenization
+- Implementing Bag-of-Words
+    - I. Building Vocabulary
+    - II. Vectorizaion
+    - III. Deriving Weights
+    - IV. Creating the Bag-of-Words Matrix
+    - V. Counting Frequencies
+    - VI. Calculating Polarities
+- Creating the Polarity Table
+- Generating the Plot
+- Function Definitions
+- Implementation and Results
  
 
 ## Tools and Technologies Used
