@@ -1,11 +1,14 @@
-# Yelp Business Reviews - Sentiment Analysis
- Yelp is a popular website where users can leave reviews and ratings for businesses. Analyzing restaurant reviews can provide valuable insights into customer sentiments towards different cuisine types and their respective pros and cons, according to customer reviews.
+# Sentiment Analysis of Restaurant Reviews
 
-## About the Project
- In this project, PySpark is utilized to preprocess the dataset and conduct sentiment analysis. Identifying the most praised and criticized aspects of various cuisine types is aimed by analyzin customer sentiments.
+This repository contains a notebook and resources to perform sentiment analysis and topic modelling using customer reviews towards several type of restaurants. Main objective of the project is to determine for what reasons various types of cuisines are evaluated as positive or negative by customers. This will give an idea about which aspects of which cuisines are stronger and which aspects are open to improvement.
+
+## About the Dataset
+
+[Yelp Open Dataset](https://www.yelp.com/dataset) is used for this project. It contains nearly 7 million reviews on 150 thousand businesses. It is a subset of Yelp's data for use in connection with academic research available as JSON files. 
 
 
- ## Table of Contents
+## Project Overview
+ This project was built using Apache Spark in Azure Synapse Analytics. All computations were performed on virtual machines provided by Azure, taking advantage of parallel computing, the core concept of Apacke Spark. The content of the project and all steps applied to the raw dataset are as follows:
  
  - Importing Libraries
  - Creating Spark Environment
@@ -32,17 +35,15 @@
  
 
 ## Tools and Technologies Used
-The project was carried out using Apache Spark's Python API, PySpark. The libraries used are as follows:
+The project was carried out using Apache Spark's Python API, PySpark. The libraries and sub-packages used are as follows:
 
 - NumPy
 - Pandas
 - Seaborn
-- Scikit-Learn
+- MatplotLib
 - pyspark.sql
 - pyspark.ml
 
-## Datasets
- Datasets used in the project can be downloaded from this link: https://www.yelp.com/dataset
 
 ## How to Use
 You can run the project by cloning it or downloading the files on your local machine. It is recommended to use a Python development environment such as Jupyter Notebook or Anaconda. By running the project files or examining the visualizations, you can learn more about the dataset.
